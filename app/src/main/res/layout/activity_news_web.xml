@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    tools:context=".MainActivity">
+    tools:context=".NewsWebActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <WebView
+        android:id="@+id/newsPage"
         android:layout_width="match_parent"
-        android:padding="3dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
